@@ -3,15 +3,15 @@
 .footer {
   position: relative;
   overflow: hidden;
-  background: #ffff;
+  background: #000;
 
   &__wrapper {
     // max-width: 999px;
     padding: 40px 10px;
-    background: rgba(#ffff,.3);
+    background: rgba(#000,.3);
     margin: 0 auto;
     box-sizing: border-box;
-    background: #ffff;
+    background: #000;
     color: #666;
   }
 
@@ -19,7 +19,7 @@
     float: left;
     width: 25%;
         a {
-      color: #000;
+      color: #999;
       text-decoration: none;
       padding: .1em .5em;
       &.is-selected {
