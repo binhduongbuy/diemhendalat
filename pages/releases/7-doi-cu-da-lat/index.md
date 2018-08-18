@@ -4,7 +4,7 @@ title: Đồi Cù Đà Lạt
 layout: ReleasePage
 category: releases
 path: '/releases/7-doi-cu-da-lat/'
-key: doicudalat
+key: doicu
 
 meta: Đồi Cù Đà Lạt, Đà Lạt , Bình Dương
 keywords: Đồi Cù Đà Lạt, Đà Lạt , Bình Dương
