@@ -1,9 +1,9 @@
 ---
-title: 'Địa điểm ăn uống Bình Dương'
+title: 'Địa điểm du lịch + Ăn uống Đà Lạt'
 layout: HomePage
 path: '/'
-meta: Những món đồ cần mua của Tiếp, trang cá nhân tổng hợp đồ cần mua
-keywords: Những món đồ cần mua của Tiếp, trang cá nhân tổng hợp đồ cần mua
+meta: Địa điểm du lịch + Ăn uống Đà Lạt
+keywords: Địa điểm du lịch + Ăn uống Đà Lạt
 ---
 
 
