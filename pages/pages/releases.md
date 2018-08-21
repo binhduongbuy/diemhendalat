@@ -1,7 +1,7 @@
 ---
-title: 'Danh mục món đồ nên mua'
+title: 'Danh mục món ăn - Tới Trà Sữa Phú Quốc Quán bạn sẽ nhận được giá trị tương xứng'
 layout: Releases
 path: '/releases/'
-meta: Danh mục món đồ nên mua
-keywords: Danh mục món đồ nên mua
+meta: Danh mục món ăn Tới Trà Sữa Phú Quốc Quán bạn sẽ nhận được giá trị tương xứng
+keywords: Danh mục món ăn Tới Trà Sữa Phú Quốc Quán bạn sẽ nhận được giá trị tương xứng
 ---

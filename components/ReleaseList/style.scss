@@ -12,10 +12,11 @@
 
     &__link {
         background: rgba(#fff,.0);
-        color: #bbbbbb;
+        color: #255161;
         position: relative;
         font-size: 12px;
         flex-basis: (100% / 2);
+        color: white;
         text-decoration: none;
         padding: 0 10px 20px;
         box-sizing: border-box;
@@ -34,7 +35,7 @@
                 position: absolute;
                 height: 1px;
                 width: 0;
-                background: #255161;
+                background: #FFFFFF;
                 transition: width .35s ease;
                 z-index: 20;
             }
@@ -83,7 +84,7 @@
             padding: .6em 0;
             font-size: 10px;
             background: rgba(#222,.0);
-            color: rgba(173, 173, 173, 0.6);
+            color: rgba(#000,.6);
         }
     }
 }

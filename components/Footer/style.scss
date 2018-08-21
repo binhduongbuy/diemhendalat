@@ -3,23 +3,23 @@
 .footer {
   position: relative;
   overflow: hidden;
-  background: #FF1493;
+  background: #FF3399;
 
   &__wrapper {
     // max-width: 999px;
     padding: 40px 10px;
-    background: rgba(#FF1493,.3);
+    background: rgba(#FF3399,.3);
     margin: 0 auto;
     box-sizing: border-box;
-    background: #FF1493;
-    color: #666;
+    background: #FF3399;
+    color: #ffffff;
   }
 
  &__left {
     float: left;
     width: 25%;
         a {
-      color: #000;
+      color: #999;
       text-decoration: none;
       padding: .1em .5em;
       &.is-selected {
@@ -36,7 +36,7 @@
       text-decoration: none;
       padding: .1em .5em;
       &.is-selected {
-        color: #ecffcc;
+        color: #9dff00;
       }
     }
 }
@@ -47,7 +47,7 @@
       text-decoration: none;
       padding: .1em .5em;
       &.is-selected {
-        color: #ecffcc;
+        color: #9dff00;
       }
     }
 }
@@ -63,7 +63,7 @@
     padding: 14px 0;
     min-width: 200px;
     color: #fff;
-    background-color: #000;
+    background-color: #2f2e2a;
     font:900 14px/19px 'Open Sans', sans-serif;
     text-align: center;
     cursor: pointer;
@@ -139,7 +139,7 @@
       text-decoration: none;
       padding: .1em .5em;
       &.is-selected {
-        color: #ecffcc;
+        color: #9dff00;
       }
     }
   }

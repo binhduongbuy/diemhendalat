@@ -36,7 +36,7 @@ module.exports = React.createClass({
           <link rel="shortcut icon" href='/bakadono_favicon_32plus144@.png' />
           <link rel="apple-touch-icon" href='/bakadono_favicon_32plus144@.png' />
           <meta property="og:image" content='/bakadono-144@.png' />
-		  <meta name="google-site-verification" content='IDHERE' />
+		  <meta name="google-site-verification" content='d9ktQdSdvZcuuwxBsSsreBoPrB667YE1gWzvdlYHhV0' />
 		  <meta name="format-detection" content='telephone=no' />
           {head.meta.toComponent()}
         </head>
@@ -70,7 +70,7 @@ function buildGoogleAnalyticsSetup() {
 function buildGoogleAdSense() {
   const js = `
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: 'ca-pub-2658080248305014',
+    google_ad_client: 'ca-pub-IDHERE',
     enable_page_level_ads: true
   });
   `;

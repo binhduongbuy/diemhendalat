@@ -1,7 +1,7 @@
 ---
-title: 'Events & Các sự kiện do Trà Sữa Mẹ Nấu tổ chức'
+title: 'Events & Các sự kiện do Trà Sữa Phú Quốc tổ chức'
 layout: Events
 path: '/events/'
-meta: Events & Các sự kiện do Trà Sữa Mẹ Nấu tổ chức
-keywords: Events & Các sự kiện do Trà Sữa Mẹ Nấu tổ chức
+meta: Events & Các sự kiện do Trà Sữa Phú Quốc tổ chức
+keywords: Events & Các sự kiện do Trà Sữa Phú Quốc tổ chức
 ---

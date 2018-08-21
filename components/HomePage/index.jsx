@@ -1,44 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router'
-import sortBy from 'lodash/sortBy'
 import { prefixLink } from 'gatsby-helpers'
-import access from 'safe-access'
-import Ink from 'react-ink'
+import { config } from 'config'
 
 import './style.scss'
+import logoBakaDonoLarge from '../../static/img/svg-icons/dung.svg'
 
 class HomePage extends React.Component {
     render() {
-        const pageLinks = []
-
-        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.id')).reverse()
-        sortedPages.forEach((page) => {
-            if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'releases') {
-                const id = access(page, 'data.id') || page.path
-                const key = access(page, 'data.key') || page.path
-                const title = access(page, 'data.title') || page.path
-
-                pageLinks.push(
-                    <Link to={ prefixLink(page.path) } className='release-list__link' key={ key } activeClassName='is-selected' >
-                        <img className='release-list__cover' src={ prefixLink(`${ page.path }cover.jpg`) } />
-                        <div className='release-list__title'>{ title }</div>
-                        <Ink />
-                    </Link>
-                )
-            }
-        })
+        const {route} = this.props
+        const page = route.page.data
 
         return (
-            <div className='release-list'>
-                { pageLinks }
+            <div className='homepage'>
+
+                <img className='homepage__logo' src={ prefixLink(logoBakaDonoLarge) } alt='Logo'/>
+
+                <h1 className='homepage__title'>{ config.siteTitle }</h1>
+                <h2 className='homepage__description'>{ config.siteDescr }</h2>
+
+                <div dangerouslySetInnerHTML={{ __html: page.body}} />
+
             </div>
         );
     }
 }
 
 HomePage.propTypes = {
-    route: React.PropTypes.object,
+    page: React.PropTypes.object,
 }
 
 export default HomePage
-

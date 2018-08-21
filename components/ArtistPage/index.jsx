@@ -28,8 +28,7 @@ class ReleasePage extends React.Component {
 
                     <div className='artist-page__location'>Made in { post.location }</div>
 
-		  <div className='artist-page__prices'>{ post.prices }</div>
-
+		    <div className='artist-page__prices'>Đơn giá { post.prices } K</div>
 
                     { !!post.bandcampLabelTrack ? <iframe className='artist-page__iframe-bandcamp' src={`https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=222222/linkcol=4ec5ec/tracklist=false/artwork=small/track=${ post.bandcampLabelTrack }/transparent=true/`} seamless /> : '' }
 

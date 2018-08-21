@@ -5,7 +5,7 @@ import { config } from 'config'
 import Ink from 'react-ink'
 
 import './style.scss'
-import iconOdayakaLogo from '../../static/img/svg-icons/dung.svg'
+import iconBakadonoLogo from '../../static/img/svg-icons/dung.svg'
 
 class HeaderLogo extends React.Component {
     render() {
@@ -14,7 +14,7 @@ class HeaderLogo extends React.Component {
             <div className='header-logo'>
 
                 <Link to={ prefixLink('/')} className='header-logo__link' activeClassName='is-selected' onlyActiveOnIndex>
-                    <img className='header-logo__link-icon' src={ prefixLink(iconOdayakaLogo) }/>
+                    <img className='header-logo__link-icon' src={ prefixLink(iconBakadonoLogo) }/>
                     <div className='header-logo__link-name'>
                         <div className='header-logo__link-name-title'>{ config.siteTitle }</div>
                         <div className='header-logo__link-name-subtitle'>{ config.siteDescr }</div>
