@@ -1,7 +1,7 @@
 ---
-title: 'Events & Các sự kiện do Trà Sữa Phú Quốc tổ chức'
+title: 'Danh mục Khách Sạn'
 layout: Events
 path: '/events/'
-meta: Events & Các sự kiện do Trà Sữa Phú Quốc tổ chức
-keywords: Events & Các sự kiện do Trà Sữa Phú Quốc tổ chức
+meta: Danh mục Khách Sạn
+keywords: Danh mục Khách Sạn
 ---
