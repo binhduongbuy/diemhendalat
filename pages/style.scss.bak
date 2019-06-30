@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     text-align: center;
-    background: #242f3e;
+    background: #FF3399;
     // background: #bbb url(./static/img/backgrounds/default.png);
     color: #FFFFFF;
     font: 400 16px/1.4 'Montserrat', Helvetica, Arial, sans-serif;
