@@ -11,7 +11,7 @@
     background: rgba(#FF3399,.3);
     margin: 0 auto;
     box-sizing: border-box;
-    background: #242f3e;
+    background: #FF3399;
     color: #ffffff;
   }
 
